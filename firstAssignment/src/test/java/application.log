@@ -1,0 +1,88 @@
+23/07/2020 02:57:38 Debugger Browser Setup done for test execution.
+23/07/2020 02:57:38 Debugger Navigating to URL: https://www.airbnb.co.in/
+23/07/2020 02:58:01 Debugger Successfully Navigated to the desired url
+23/07/2020 02:58:01 Debugger The Title of the Webpage is: Holiday Lets, Homes, Experiences & Places - Airbnb
+23/07/2020 02:58:01 Debugger Clicking on : Cookies OK Button
+23/07/2020 02:58:01 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:01 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:01 Debugger Clicked on : Cookies OK Button
+23/07/2020 02:58:01 Debugger Clicking on : Location text Box
+23/07/2020 02:58:01 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:01 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:02 Debugger Clicked on : Location text Box
+23/07/2020 02:58:02 Debugger Sending Values in : Location text Box
+23/07/2020 02:58:02 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:02 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:02 Debugger Inputted 'Sicily, Italy' text into : 'Location text Box'
+23/07/2020 02:58:02 Debugger Clicking on : Experiences Button
+23/07/2020 02:58:02 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:02 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:02 Debugger Clicked on : Experiences Button
+23/07/2020 02:58:02 Debugger Clicking on : Date Input Box
+23/07/2020 02:58:02 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:02 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:03 Debugger Clicked on : Date Input Box
+23/07/2020 02:58:03 Debugger Clicking on : Right Arrow button in Date Picker
+23/07/2020 02:58:03 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:03 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:03 Debugger Clicked on : Right Arrow button in Date Picker
+23/07/2020 02:58:03 Debugger Clicking on : 1st Month Date
+23/07/2020 02:58:03 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:03 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:03 Debugger Webdriver click failed now trying through JS executor click
+23/07/2020 02:58:04 Debugger Clicking on : Right Arrow button in Date Picker
+23/07/2020 02:58:04 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:04 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:04 Debugger Clicked on : Right Arrow button in Date Picker
+23/07/2020 02:58:04 Debugger Clicking on : Right Arrow button in Date Picker
+23/07/2020 02:58:04 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:04 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:04 Debugger Clicked on : Right Arrow button in Date Picker
+23/07/2020 02:58:04 Debugger Clicking on : 2nd Month Date
+23/07/2020 02:58:04 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:04 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:05 Debugger Webdriver click failed now trying through JS executor click
+23/07/2020 02:58:05 Debugger Clicking on : Search Button
+23/07/2020 02:58:05 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:05 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:05 Debugger Webdriver click failed now trying through JS executor click
+23/07/2020 02:58:05 Debugger Clicking on : Guests Button
+23/07/2020 02:58:05 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:11 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:12 Debugger Clicked on : Guests Button
+23/07/2020 02:58:12 Debugger Clicking on : Plus button for adult
+23/07/2020 02:58:12 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:12 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:12 Debugger Clicked on : Plus button for adult
+23/07/2020 02:58:12 Debugger Clicking on : Plus button for child
+23/07/2020 02:58:12 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:12 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:12 Debugger Clicked on : Plus button for child
+23/07/2020 02:58:12 Debugger Clicking on : Guest Save Button
+23/07/2020 02:58:12 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:12 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:12 Debugger Clicked on : Guest Save Button
+23/07/2020 02:58:12 Debugger Clicking on : Price Filter Button
+23/07/2020 02:58:12 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:13 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:13 Debugger Clicked on : Price Filter Button
+23/07/2020 02:58:13 Debugger Sending Values in : Max. Price Filter
+23/07/2020 02:58:13 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:13 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:13 Debugger Inputted '5000' text into : 'Max. Price Filter'
+23/07/2020 02:58:13 Debugger Sending Values in : Min. Price Filter
+23/07/2020 02:58:13 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:13 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:13 Debugger Inputted '2000' text into : 'Min. Price Filter'
+23/07/2020 02:58:13 Debugger Clicking on : Price Filter Save Button
+23/07/2020 02:58:13 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:13 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:14 Debugger Clicked on : Price Filter Save Button
+23/07/2020 02:58:14 Debugger Clicking on : Navigating to the First Result
+23/07/2020 02:58:14 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:30 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:30 Debugger Clicked on : Navigating to the First Result
+23/07/2020 02:58:30 Debugger Clicking on : Navigating to the Third Result
+23/07/2020 02:58:30 Debugger Waiting for web element to load on the page
+23/07/2020 02:58:30 Debugger Waiting ends ... Web element loaded on the page
+23/07/2020 02:58:35 Debugger Clicked on : Navigating to the Third Result

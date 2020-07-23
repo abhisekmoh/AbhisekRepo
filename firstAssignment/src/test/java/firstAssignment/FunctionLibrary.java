@@ -30,6 +30,7 @@ public class FunctionLibrary extends Assignment1{
 		}
 	}
 
+	//Method for clicking on a webElement
 	public static void clickOnElement(By locator, String elemName) {
 		APPLICATION_LOGS.debug("Clicking on : " + elemName);
 		try {
@@ -57,7 +58,8 @@ public class FunctionLibrary extends Assignment1{
 			}			
 		}
 	}
-
+	
+	//method to explicitly wait for webelement to be intractable
 	public static void waitForElementToLoad(final By locator) {
 		APPLICATION_LOGS.debug("Waiting for web element to load on the page");
 		try {
@@ -76,6 +78,7 @@ public class FunctionLibrary extends Assignment1{
 		}
 	}
 
+	//Method to input text in text area
 	public static void input(By locator, String elemName, String Value) {
 		APPLICATION_LOGS.debug("Sending Values in : " + elemName);
 		try {
@@ -96,16 +99,6 @@ public class FunctionLibrary extends Assignment1{
 		}
 	}
 
-	public static void scrollIntoView(By locator, String Element) {
-		try {
-			APPLICATION_LOGS.debug("Scrolling into View for : " + Element);
-			WebElement element = driver.findElement(locator);
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-		}
-		catch(Exception e) {
-			APPLICATION_LOGS.debug("Error while scrolling into view for - " + Element + " : " + e.getMessage());
-		}
-	}
 	// Capture screenshot and store
 	public static void takeScreenShot(String filePath) {
 

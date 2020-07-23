@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 public class Assignment1 {
 	public static WebDriver driver = null;
 	public static Logger APPLICATION_LOGS = Logger.getLogger("Debugger");
-	public static String screenshotPath = System.getProperty("user.dir") + File.separator+"Reports"+File.separator;
 	
 
 	public static void main(String[] args) throws InterruptedException {
@@ -33,6 +32,8 @@ public class Assignment1 {
 		TestScript.priceFilter();
 		
 		TestScript.navigateToFirstAndThirdResult();
+		
+		//TestScript.closeBrowser();
 
 	}
 

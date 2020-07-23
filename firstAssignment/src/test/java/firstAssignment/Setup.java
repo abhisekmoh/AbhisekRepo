@@ -5,10 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Setup extends Assignment1{
 
@@ -33,17 +30,12 @@ public class Setup extends Assignment1{
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void browserSetup(){
 		try {
 			String path = System.getProperty("user.dir");
 			System.out.println(path); 
 			System.setProperty("webdriver.chrome.driver",path+"\\chromedriver.exe");
-			ChromeOptions chromeOptions=new ChromeOptions();
-			chromeOptions.addExtensions(new File("E:\\6.1.4-Crx4Chrome.com.crx"));
-			DesiredCapabilities desiredCapabilities=DesiredCapabilities.chrome();
-			desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-			driver = new ChromeDriver(desiredCapabilities);
+			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			// Delete all browser cookies
 			driver.manage().deleteAllCookies();

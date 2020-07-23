@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.io.FileUtils;
 
 public class FunctionLibrary extends Assignment1{
-	public static String screenshotPath = System.getProperty("user.dir") + File.separator+"ScreenShots"+File.separator;
+	public static String screenshotPath = System.getProperty("user.dir") + File.separator+"Screenshots"+File.separator;
 
 	// highlight the element on which action will be performed
 	public static void highlightElement(WebDriver driver, By Locator) {

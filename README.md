@@ -24,10 +24,5 @@ Still if the dependencies are not downloaded then follow these steps: In Eclipse
 5. Click on the Request.java file and open it in the IDE.
 6. Right click on that java file and select "Run as TestNG Program".
 
-To run the program from command propmt once the dependencies has been resolved:
-1. open command prompt.
-2. Go to the location where the project is present from command prompt.
-3. enter the following command to compile: javac Request.java.
-4. Enter the following command to run : java Request.java.
 
 
